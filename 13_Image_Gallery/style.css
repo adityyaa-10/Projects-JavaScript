@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #121212;
+}
+
+section {
+    max-width: 1200px;
+    margin: 5% auto;
+}
+
+.header {
+    display: flex;
+    justify-content: end;
+}
+
+.btn {
+    padding: 1rem 2rem;
+    background-color: crimson;
+    border: none;
+    font-size: 1.1rem;
+    color: white;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.images {
+    margin: 3rem 0;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 375px));
+}
+
+img {
+    max-width: 370px;
+    gap: 1rem;
+    border-radius: 1rem;
+}
+
+.formSection {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    max-width: 450px;
+    display: none;
+}
+
+.close {
+    position: absolute;
+    top: 0.5rem;
+    right: 1.5rem;
+    font-size: 1.7rem;
+    background-color: crimson;
+    padding: .3rem .7rem;
+    border-radius: 100%;
+    color: white;
+    cursor: pointer;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+    padding: 3rem;
+    border: solid black 3px;
+    border-radius: 1rem;
+    background-color: white;
+}
+
+input {
+    padding: .8rem .8rem;
+    border: 2px solid;
+    border-radius: 0.5rem;
+}
+
+.submitBtn {
+    margin-top: 1rem;
+    padding: 0.8rem 2rem;
+    background-color: crimson;
+    border: none;
+    font-size: 1.1rem;
+    color: white;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+li {
+    list-style: none;
+    position: relative;
+}
+
+li span {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    background-color: white;
+    padding: 6px;
+    border-radius: 100%;
+    cursor: pointer;
+}
